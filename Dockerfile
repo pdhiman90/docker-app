@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM adoptium/temurin:17-jdk-jammy
 
 WORKDIR /user/app
 COPY target/docker-demo.jar .
