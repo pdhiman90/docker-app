@@ -1,4 +1,4 @@
-FROM adoptium/temurin:17-jdk-jammy
+FROM eclipse-temurin:17-jdk-jammy
 
 WORKDIR /user/app
 COPY target/docker-demo.jar .
