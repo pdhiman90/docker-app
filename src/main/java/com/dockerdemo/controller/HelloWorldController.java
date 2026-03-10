@@ -9,6 +9,6 @@ public class HelloWorldController {
     @GetMapping("/message")
     public String getMessage()
     {
-        return "Hello from Prince Dhiman";
+        return "<h1>Hello from Prince Dhiman Learning Jenkins and Docker</h1>";
     }
 }
